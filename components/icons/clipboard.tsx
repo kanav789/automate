@@ -1,7 +1,7 @@
 import clsx from 'clsx'
 import React from 'react'
 
-const Logs = ({ selected }: { selected: boolean }) => {
+function Logs({ selected }: { selected: boolean }) {
     return (
         <svg
             width="24"
