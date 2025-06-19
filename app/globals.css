@@ -122,3 +122,6 @@
 }
 
 
+.scroll::-webkit-scrollbar {
+  display: none; /* Hides scrollbar */
+}
