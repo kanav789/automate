@@ -1,5 +1,6 @@
 import { ProfileForm } from '@/components/forms/profile-forms'
 import React from 'react'
+import ProfilePicture from './_Components/profile_picture'
 
 type Props = {}
 
@@ -16,8 +17,11 @@ export default function Setting({ }: Props) {
                         Add or update your information
                     </p>
                 </div>
+                <ProfilePicture />
+
 
                 <ProfileForm />
+
             </div>
 
 
